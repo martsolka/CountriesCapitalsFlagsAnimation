@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags and Capitals of European countries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-text">
+            <h1>Countries of Europe</h1>
+            <input type="checkbox" id="info-toggle" class="info-toggle">
+            <label for="info-toggle"
+                data-tooltip="1. Click on one of the region buttons ☝️ to reveal the list of countries in that region. 2. Hover over the names of the countries 👇 to see creative text animation hover effects that display the capital city and flag of the selected country.">i</label>
+        </div>
+        <div class="header-btns">
+            <a class="region-btn" href="#Northern-Europe">Northern Europe</a>
+            <a class="region-btn" href="#Western-Europe">Western Europe</a>
+            <a class="region-btn" href="#Eastern-Europe">Eastern Europe</a>
+            <a class="region-btn" href="#Southern-Europe">Southern Europe</a>
+        </div>
+    </header>
+    <div class="list-wrapper">
+        <ul class="region-countries" id="Northern-Europe">
+            <li class="region-country" data-capital="Mariehamn" id="AX">Aland Islands</li>
+            <li class="region-country" data-capital="Copenhagen" id="DNK">Denmark</li>
+            <li class="region-country" data-capital="Tallinn" id="EST">Estonia</li>
+            <li class="region-country" data-capital="Tórshavn" id="FO">Faroe Islands</li>
+            <li class="region-country" data-capital="Helsinki" id="FIN">Finland</li>
+            <li class="region-country" data-capital="St. Peter Port" id="GG">Guernsey</li>
+            <li class="region-country" data-capital="Reykjavik" id="ICL">Iceland</li>
+            <li class="region-country" data-capital="Dublin" id="IRL">Ireland</li>
+            <li class="region-country" data-capital="Douglas" id="IM">Isle of Man</li>
+            <li class="region-country" data-capital="St. Helier" id="JE">Jersey</li>
+            <li class="region-country" data-capital="Riga" id="LVA">Latvia</li>
+            <li class="region-country" data-capital="Vilnius" id="LTU">Lithuania</li>
+            <li class="region-country" data-capital="Oslo" id="NOR">Norway</li>
+            <li class="region-country" data-capital="	Longyearbyen" id="SJ">Svalbard and Jan Mayen</li>
+            <li class="region-country" data-capital="Stockholm" id="SWE">Sweden</li>
+            <li class="region-country" data-capital="London" id="GB">United Kingdom</li>
+        </ul>
+        <ul class="region-countries" id="Western-Europe">
+            <li class="region-country" data-capital="Vienna" id="AUS">Austria</li>
+            <li class="region-country" data-capital="Brussels" id="BEL">Belgium</li>
+            <li class="region-country" data-capital="Paris" id="FRA">France</li>
+            <li class="region-country" data-capital="Berlin" id="GER">Germany</li>
+            <li class="region-country" data-capital="Vaduz" id="LIE">Liechtenstein</li>
+            <li class="region-country" data-capital="Luxembourg" id="LUX">Luxembourg</li>
+            <li class="region-country" data-capital="Amsterdam" id="NLD">Netherlands</li>
+            <li class="region-country" data-capital="Bern" id="SWZ">Switzerland</li>
+        </ul>
+        <ul class="region-countries" id="Eastern-Europe">
+            <li class="region-country" data-capital="Minsk" id="BLR">Belarus</li>
+            <li class="region-country" data-capital="Sofia" id="BLG">Bulgaria</li>
+            <li class="region-country" data-capital="Nicosia" id="CY">Cyprus</li>
+            <li class="region-country" data-capital="Prague" id="CZE">Czechia</li>
+            <li class="region-country" data-capital="Budapest" id="HNG">Hungary</li>
+            <li class="region-country" data-capital="Chisinau" id="MLD">Moldova</li>
+            <li class="region-country" data-capital="Warsaw" id="POL">Poland</li>
+            <li class="region-country" data-capital="Bucharest" id="ROM">Romania</li>
+            <li class="region-country" data-capital="Moscow" id="RUS">Russia</li>
+            <li class="region-country" data-capital="Bratislava" id="SLO">Slovakia</li>
+            <li class="region-country" data-capital="Kiev" id="UKR">Ukraine</li>
+        </ul>
+        <ul class="region-countries" id="Southern-Europe">
+            <li class="region-country" data-capital="Tirana" id="ALB">Albania</li>
+            <li class="region-country" data-capital="Andorra la Vella" id="AND">Andorra</li>
+            <li class="region-country" data-capital="Sarajevo" id="BAH">Bosnia and Herzegovina</li>
+            <li class="region-country" data-capital="Zagreb" id="CRO">Croatia</li>
+            <li class="region-country" data-capital="Gibraltar" id="GI">Gibraltar</li>
+            <li class="region-country" data-capital="Athens" id="GRE">Greece</li>
+            <li class="region-country" data-capital="Rome" id="ITL">Italy</li>
+            <li class="region-country" data-capital="Valletta" id="MLT">Malta</li>
+            <li class="region-country" data-capital="Podgorica" id="MTN">Montenegro</li>
+            <li class="region-country" data-capital="Skopje" id="MCD">North Macedonia</li>
+            <li class="region-country" data-capital="Lisbon" id="PRT">Portugal</li>
+            <li class="region-country" data-capital="San Marino" id="SMR">San Marino</li>
+            <li class="region-country" data-capital="Belgrade" id="SRB">Serbia</li>
+            <li class="region-country" data-capital="Ljubljana" id="SLV">Slovenia</li>
+            <li class="region-country" data-capital="Madrid" id="SPA">Spain</li>
+        </ul>
+    </div>
+    <ul class="countries-list"></ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
